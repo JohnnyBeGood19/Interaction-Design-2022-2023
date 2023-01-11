@@ -1,0 +1,502 @@
+@font-face {
+  font-family: 'BrutGrotesque';
+  src: url(BrutGrotesque/BrutGrotesque-Book.otf);
+}
+
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* BASIC STYLE */
+body {
+  font-family: 'BrutGrotesque';
+}
+
+/** UTILITY CLASSES **/
+/* Displays */
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*** COLORS CLASSES ***/
+.bg-red {
+  background-color: #8d2723ff;
+  color: #ffffff;
+}
+
+.bg-violet {
+  background-color: #6b4e79ff;
+  color: #ffffff;
+}
+
+.bg-gold {
+  background-color: #b87f22ff;
+  color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #5b9a96ff;
+  color: #ffffff;
+}
+
+.bg-grey {
+  background-color: #8b97a7ff;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=riggset.css.map */
+
+/* -------------------------------------------------FINE RESET---------------------------------------------- */
+
+
+
+.container {
+  display: flex;
+}
+/* ---------------INIZIO PG.ASSIGNMENTS-OPEN----------------- */
+.menu {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.hand {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+
+
+
+.h2-open {
+  display: flex;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #000;
+  transform-origin: center center;
+  transform: rotate(90deg) translateX(100%);
+
+}
+
+.pallina1 {
+  padding-top: 450px;
+
+}
+
+
+.content {
+  flex: 1;
+  height: 100vh;
+  flex-wrap: wrap;
+  overflow: scroll;
+  padding: 20px;
+  justify-content: center;
+
+}
+
+/* ---------------FINE PG.ASSIGNMENTS-OPEN----------------- */
+
+/* ---------------INIZIO PG.ASSIGNMENTS-CLOSE----------------- */
+
+.menu1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  
+
+
+}
+
+.hand1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+}
+
+.h2-close-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 3;
+
+}
+
+.h2-close a:hover{ 
+  color: #666;
+}
+
+
+.pallina2 {
+  padding-top: 40px;
+
+}
+
+/* ---------------FINE PG.ASSIGNMENTS-CLOSE----------------- */
+
+/* ---------------INIZIO PG.ORDINE----------------- */
+
+
+.bkg1 {
+  width: 100%;
+  background: url(immagini/bkg/bkg1.jpg) repeat center center ;
+  background-size: cover;
+  height: auto;
+  max-width: auto;
+  margin: 0 auto;   
+}
+
+
+
+
+.bkg2 {
+  width: 100%;
+  background: url(immagini/bkg/bkg2.svg) repeat center center ;
+  background-size: cover;
+  height: auto;
+  max-width: auto;
+  margin: 0 auto;   
+}
+
+.bkg3 {
+  width: 100%;
+  background: url(immagini/bkg/bkg3.svg) repeat center center ;
+  background-size: cover;
+  height: auto;
+  max-width: auto;
+  margin: 0 auto;   
+}
+
+.bkg4 {
+  width: 100%;
+  background: url(immagini/bkg/bkg4.svg) repeat center center ;
+  background-size: cover;
+  height: auto;
+  max-width: auto;
+  margin: 0 auto;   
+}
+
+
+.titolo  {
+  padding: 30px 35px;
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+.mano {
+  text-align: center;
+  text-decoration: none;
+  padding-top:15px ;
+}
+
+main a:hover {
+ opacity: 0.6;
+
+}
+
+.container_ordine {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0px 50px ;
+  font-size: 25px;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+
+p span {
+  display: block;
+  animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+      transform: translate(0, 100%);
+  }
+
+  100% {
+      transform: translate(0, 0);
+  }
+}
+
+/* --------------FOOTER---- PG.ORDINE----------------- */
+.social1 {
+  padding-top: 180px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social1 a {
+  color: #000;
+}
+
+.social1 a:hover {
+  opacity: 0.6;
+}
+
+.powered1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+/* ---------------FINE PG.ORDINE----------------- */
+/* ---------------INIZIO PG.ORDINE_LAVORI---------------- */
+.grid2{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin: 40px;
+}
+.grid2 p{
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: end;
+}
+.grid2 img{
+  border: solid rgb(220, 220, 220);
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.grid2 a:hover {
+  opacity: 0.6;
+}
+/* ---------------FINE PG.ORDINE_LAVORI----------------- */
+/* --------------- INIZIO PG.DOT----------------- */
+
+.lista_dot {
+    display: flex;
+    justify-content: flex-start;
+    align-items:  flex-end;
+    padding: 30px 0px 0px 70px;
+    font-size: 20px;
+    line-height:2.4;
+    
+  }
+
+  .lista_dot a:hover{
+    opacity: 0.6;
+  }
+/* --------------- FINE PG.DOT----------------- */
+
+
+
+
+  /* -------------------------------- */
+  /* -------------------------------- */
+  /* -------------------------------- */
+  /* -------------------------------- */
+  /* -------------------------------- */
+  /* ---------------INIZIO-MOBILE----------------- */
+
+/* ---------------INIZIO PG.MOBILE ASSIGNMENTS-OPEN----------------- */
+
+@media (max-width:768px) {
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    flex: 1;
+  }
+
+
+  .hand {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+
+  }
+
+  .h2-open {
+
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #000;
+    transform-origin: center center;
+    transform: rotate(90deg) translateX(200%);
+  }
+
+
+  .content {
+    flex: auto;
+
+  }
+
+
+  /* ---------------FINE PG.MOBILE ASSIGNMENTS-OPEN----------------- */
+  /* ---------------INIZIO PG.MOBILE ASSIGNMENTS-CLOSE----------------- */
+
+  .hand1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+
+  }
+
+  .h2-close-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+
+  }
+
+  .pallina2 {
+    padding-top: 100px;
+
+  }
+  /* ---------------FINE PG.MOBILE ASSIGNMENTS-CLOSE----------------- */
+
+  /* ---------------INIZIO PG.MOBILE ORDINE DI LETTURA----------------- */
+
+  .bkg2 {
+    width: 100%;
+    background: url(immagini/bkg/bkg2.SVG) repeat center center ;
+    background-size: cover;
+    height: auto;
+    max-width: auto;
+    margin: 0 auto;   
+}
+
+.bkg2 .titolo  h1{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.mano {
+    text-align: center;
+}
+
+
+.container_ordine {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 20px ;
+}
+
+.container_ordine p {
+    margin: 0;
+    text-align: start;
+    font-size: 15px;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+p span {
+    display:block;
+    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+    0% {
+        transform: translate(0, 100%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+  /* --------------FOOTER---------- PG.MOBILE ORDINE DI LETTURA----------------- */
+.powered1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+ }
+/* ---------------FINE PG.MOBILE ORDINE DI LETTURA----------------- */
+  /* ------------------------INIZIO PG.MOBILE DOT-"LISTA"----------------- */
+ .lista_dot {
+  justify-content: flex-start;
+  align-items:  flex-end ;
+  padding: 30px 0px 0px 30px;
+  font-size: 15px;
+}
+
+.lista_dot a:hover{
+  opacity: 0.6;
+}
+  /* ------------------------INIZIO PG.MOBILE DOT-LISTA----------------- */
+}
+
+/* ---------------INIZIO PG.MOBILE ORDINE_LAVORO----------------- */
+
+@media (min-width:900px){
+  .grid2{
+    flex-direction: row;
+  }
+  p{
+    align-items: end;
+  }
+
+}
+
+/* ---------------FINE PG.MOBILE ORDINE_LAVORO----------------- */
+/* ---------------FINE-MOBILE----------------- */

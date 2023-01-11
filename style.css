@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'BrutGrotesque';
+    src: url(BrutGrotesque/BrutGrotesque-Book.otf);
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BASIC STYLE */
+body {
+    font-family: 'BrutGrotesque';
+}
+
+/** UTILITY CLASSES **/
+/* Displays */
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*** COLORS CLASSES ***/
+.bg-red {
+    background-color: #8d2723ff;
+    color: #ffffff;
+}
+
+.bg-violet {
+    background-color: #6b4e79ff;
+    color: #ffffff;
+}
+
+.bg-gold {
+    background-color: #b87f22ff;
+    color: #ffffff;
+}
+
+.bg-blue {
+    background-color: #5b9a96ff;
+    color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #8b97a7ff;
+    color: #ffffff;
+}
+
+
+/* ------------------------------------ HOME CONTENUTO-----------------------------*/
+.ciao {
+    text-align: start;
+    font-size: 50px;
+    margin: 50px auto;
+    padding: 30px 0px 0px 150px;
+
+}
+
+.enjoy {
+    font-size: 60px;
+    padding: 20px 150px 0px 0px;
+    text-align: end;
+
+}
+
+.circle {
+    /* -------- Triangolo e link alla pagina Interaction Design-------------------*/
+    width: 140px;
+    height: 140px;
+    background: #4cffaf;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.rectangle {
+    /* -------- Rettangolo e link alla pagina Mohole-------------------*/
+    color: #000;
+    width: 140px;
+    height: 80px;
+    background: #bf40c5;
+    text-decoration: none;
+}
+
+
+.oval {
+    /* -------- Ovale e link alla pagina Assignments-------------------*/
+    width: 200px;
+    height: 200px;
+    background: #ed6b29;
+    -moz-border-radius: 200px 70px;
+    -webkit-border-radius: 200px 70px;
+    border-radius: 100% / 50px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* ------------------------------------ FINE HOME CONTENUTO-----------------------------*/
+
+/* ------------------------------------ PAGINA INTERACTION DESIGN WEB-----------------------------*/
+
+
+.bkg1 {
+    width: 100%;
+    background: url(immagini/bkg/bkg1.jpg) repeat center center;
+    background-size: cover;
+    height: auto;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.titolo {
+    padding: 50px 35px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    height: 100px;
+    font-size: 40px;
+
+}
+
+.mano {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.mano a {
+    text-decoration: none;
+}
+
+
+.container_interaction {
+    padding: 50px 20px 0;
+    /* width: 100%;
+    background: url(immagini/bkg/bkg1.jpg) repeat center center ;
+    background-size: cover;
+    height: 300px;
+    max-width: auto;
+    margin: 0 auto; */
+}
+
+.container_interaction p {
+    margin: 0;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+p span {
+    display: block;
+    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+    0% {
+        transform: translate(0, 100%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+/* ------------------------------------ fine PAGINA INTERACTION DESIGN WEB-----------------------------*/
+/* ------------------------------------------Inizio FOOTER & SOCIAL-------------------*/
+.social {
+    padding-top: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social1 {
+    padding-top: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ----------------------------  INIZIO PG.HOME-SOCIAL-POWERED -------------*/
+.social a {
+    color: #000;
+}
+
+.social a:hover {
+    opacity: 0.6;
+}
+
+.powered {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* ----------------------------  FINE PG.HOME-SOCIAL-POWERED -------------*/
+/* ----------------------------  INIZIO INTERACTION-SOCIAL-POWERED -------------*/
+.social1 a {
+    color: #000;
+}
+
+.social1 a:hover {
+    opacity: 0.6;
+}
+
+.powered1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* ---------------------------- FINE PG.INTERACTION-SOCIAL-POWERED -------------*/
+
+/* ------------------------------- Fine FOOTER & SOCIAL ---------------------*/
+
+/* --------------INIZIO PG. DOT-LAVORI--------------------------- */
+
+.carosello {
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carousel-wrapper {
+    width: 500px;
+    height: 500px;
+    display: block;
+    position: relative;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0, 6s ease-in-out;
+}
+
+
+.arrow {
+    border: solid black;
+    padding: 10px;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+}
+
+.arrow-prev {
+    left: -20rem;
+    /* distanziamento frecce*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    position: absolute;
+    right: -20rem;
+    /* distanziamento frecce*/
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.item-1 {
+    position: absolute;
+    z-index: 6;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.item-2 {
+    position: absolute;
+    z-index: 5;
+    opacity: 1;
+    background: #fff;
+}
+
+.item-3 {
+    position: absolute;
+    background: #fff;
+}
+
+.item-4 {
+    position: absolute;
+    background: #fff;
+}
+
+.item-5 {
+    position: absolute;
+    background: #fff;
+}
+
+#item-2:target~.item-2,
+#item-3:target~.item-3,
+#item-4:target~.item-4,
+#item-5:target~.item-5 {
+    z-index: 7;
+    opacity: 1;
+}
+    /* --------------FINE PG DOT-LAVORI--------------------------- */
+    /* ----------------------------------------- */
+    /* ----------------------------------------- */
+    /* ----------------------------------------- */
+/* -----------------------------------inizio MOBILE------------------- */
+@media (max-width:768px) {
+
+    .ciao {
+        padding: 50px 35px;
+        margin-top: 100px;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .enjoy {
+        font-size: 30px;
+    }
+
+
+
+    .social {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .powered {
+        padding: 50px 0px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* ----------------INIZIO PAGINA INTERACTION MOBILE------------------------- */
+
+    .bkg1 {
+        width: 100%;
+        background: url(immagini/bkg/bkg1.jpg) repeat center center;
+        background-size: cover;
+        height: auto;
+        max-width: auto;
+        margin: 0 auto;
+    }
+
+    .bkg1 .titolo h1 {
+        font-size: 30px;
+        padding: 50px 35px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .mano {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+
+    .container_interaction {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 50px 20px;
+    }
+
+    .container_interaction p {
+        margin: 0;
+        text-align: start;
+        font-size: 15px;
+        overflow: hidden;
+        line-height: 1.5;
+    }
+
+    p span {
+        display: block;
+        animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    }
+
+    @keyframes reveal {
+        0% {
+            transform: translate(0, 100%);
+        }
+
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+
+    /* ---------------- FINE PAGINA INTERACTION MOBILE------------------------- */
+
+    /* -----------------------INIZIO PG.DOT-LAVORI MOBILE------------------------------- */
+
+
+    .carosello {
+        background-color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .carousel-wrapper {
+        width: 250px;
+        height: 250px;
+        display: block;
+        position: relative;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 25px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0, 6s ease-in-out;
+    }
+
+
+    .arrow {
+        border: solid black;
+        padding: 10px;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+    }
+
+    .arrow-prev {
+        left: -3rem;
+        /* distanziamento frecce*/
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+    }
+
+    .arrow-next {
+        position: absolute;
+        right: -3em;
+        /* distanziamento frecce*/
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .item-1 {
+        position: absolute;
+        z-index: 6;
+        opacity: 1;
+        background-color: #fff;
+    }
+
+    .item-2 {
+        position: absolute;
+        z-index: 5;
+        opacity: 1;
+        background: #fff;
+    }
+
+    .item-3 {
+        position: absolute;
+        background: #fff;
+    }
+
+    .item-4 {
+        position: absolute;
+        background: #fff;
+    }
+
+    .item-5 {
+        position: absolute;
+        background: #fff;
+    }
+
+    #item-2:target~.item-2,
+    #item-3:target~.item-3,
+    #item-4:target~.item-4,
+    #item-5:target~.item-5 {
+        z-index: 7;
+        opacity: 1;
+    }
+
+}
+
+
+
+/* -----------------------FINE PG.DOT-LAVORI MOBILE------------------------------- */
+/* -----------------------FINE MOBILE------------------------------- */
